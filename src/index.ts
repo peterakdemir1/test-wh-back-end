@@ -7,7 +7,8 @@ const port = 3000;
 const app = express();
 
 const corsOptions = {
-    origin: '*' // this should be changed to actual name of front end url in production
+    // origin: '*' // this should be changed to actual name of front end url in production
+    origin: 'https://shekhmus-front.onrender.com'
 };
 
 app.use(cors(corsOptions));
